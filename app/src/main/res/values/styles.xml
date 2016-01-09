@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Two TextView Attributes -->
+    <attr name="subtextSize" format="dimension"/>
+    <attr name="subtextColor" format="color"/>
+    <attr name="subtext" format="string"/>
+
+    <declare-styleable name="HorizontalTwoTextView">
+        <attr name="subtextSize"/>
+        <attr name="subtextColor"/>
+        <attr name="subtext"/>
+    </declare-styleable>
+
+    <declare-styleable name="VerticalTwoTextView">
+        <attr name="subtextSize"/>
+        <attr name="subtextColor"/>
+        <attr name="subtextTopMargin" format="dimension"/>
+        <attr name="subtext"/>
+    </declare-styleable>
+
+    <declare-styleable name="BadgeIcon">
+        <attr name="badgeTextSize" format="dimension"/>
+        <attr name="badgeTextColor" format="color"/>
+        <attr name="badgeTextPadding" format="dimension"/>
+        <attr name="badgeBackgroundColor" format="color"/>
+        <attr name="badgeText" format="string"/>
+        <attr name="badgePosition">
+            <flag name="top_left" value="0x01"/>
+            <flag name="top_right" value="0x02"/>
+            <flag name="bottom_right" value="0x03"/>
+            <flag name="bottom_left" value="0x04"/>
+            <flag name="top_center" value="0x05" />
+            <flag name="right_center" value="0x06"/>
+            <flag name="bottom_center" value="0x07"/>
+            <flag name="left_center" value="0x08" />
+            <flag name="center" value="0x09"/>
+        </attr>
+        <attr name="badgeMarginTop" format="dimension"/>
+        <attr name="badgeMarginBottom" format="dimension"/>
+        <attr name="badgeMarginRight" format="dimension"/>
+        <attr name="badgeMarginLeft" format="dimension"/>
+        <attr name="badgeMargin" format="dimension"/>
+    </declare-styleable>
+
+</resources>

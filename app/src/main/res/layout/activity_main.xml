@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/root"
+    android:gravity="center_horizontal"
+    tools:context="com.fenchtose.customviewsdemo.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View android:id="@+id/emiter_top_left"
+            android:layout_gravity="top|left"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:layout_width="80dp"
+            android:layout_height="1dp" />
+
+        <View android:id="@+id/emiter_center"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:layout_width="80dp"
+            android:layout_height="1dp" />
+
+        <View android:id="@+id/emiter_top_right"
+            android:layout_gravity="top|right"
+            android:layout_marginTop="20dp"
+            android:layout_width="80dp"
+            android:background="@color/colorPrimary"
+            android:layout_height="1dp" />
+
+    </FrameLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="16dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showHorizontalTextsScreen"
+        android:text="Horizontal Texts"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="16dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showVerticalTextsScreen"
+        android:text="Horizontal Texts"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="16dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showBadgeScreen"
+        android:text="Badge Icon"/>
+
+</LinearLayout>

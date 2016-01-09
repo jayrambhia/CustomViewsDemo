@@ -50,4 +50,21 @@
         <attr name="badgeMargin" format="dimension"/>
     </declare-styleable>
 
+    <declare-styleable name="ArcView">
+        <attr name="arc_color" format="color"/>
+        <attr name="arc_radius" format="dimension"/>
+        <attr name="arc_start_angle" format="float"/>
+        <attr name="arc_sweep_angle" format="float"/>
+        <attr name="arc_thickness" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="RatingView">
+        <attr name="rate_active_drawable" format="reference"/>
+        <attr name="rate_inactive_drawable" format="reference"/>
+        <attr name="rate_size" format="dimension"/>
+        <attr name="rate_margin" format="dimension"/>
+        <attr name="rate_total" format="integer"/>
+        <attr name="rate_active" format="integer"/>
+    </declare-styleable>
+
 </resources>
